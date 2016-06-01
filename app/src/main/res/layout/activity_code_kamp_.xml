@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="karanbatra.com.swipestudentinfo.CodeKamp_Activity">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CodeKamp is an apprenticeship on steroids. We are a group of techies who believe in accelerated
+        learning and preparing job ready candidates. You learned to ride a bike by getting on the bike, right?
+        Same here. We focus on hands-on learning over old-school lectures. From day one, you’ll dig in and start coding.
+         It’s the only way to learn."
+        android:id="@+id/textView"
+        android:textStyle="normal"
+        android:textSize="20sp"/>
+</RelativeLayout>
+</ScrollView>
